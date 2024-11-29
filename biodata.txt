@@ -1,0 +1,5 @@
+biodata
+
+nama: Kukuh Rafi Hernawan
+Kelas: 4IA26
+Npm: 50421740

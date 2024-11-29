@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 22, 2024 8:57:11 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Proyek" table="proyek" catalog="warehouse1" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="namaproyek" type="string">
+            <column name="namaproyek" not-null="true" />
+        </property>
+        <property name="lokasi" type="string">
+            <column name="lokasi" not-null="true" />
+        </property>
+        <property name="tanggalmulai" type="string">
+            <column name="tanggalmulai" not-null="true" />
+        </property>
+        <property name="tanggalselesai" type="string">
+            <column name="tanggalselesai" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
